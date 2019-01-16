@@ -1,138 +1,18 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+
+.bottom {
+    position: absolute;
+    top: 50%;
     padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+    left: 50%;
+    width: 40%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-family: Roboto, Helvetica, cursive;
+    font-size: 80px;
+    color: black;
+    opacity: 0.8;
+    text-emphasis: bold;
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-
-.bg {
-                /* The image used */
-                /*background-color:#f9f9f9; */
-                background-image: url("images/main.jpg");
-                
-                /* Full height */
-                height: 100%;
-                margin-top: 0px;
-                /* Center and scale the image nicely */
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-
-            }
-            .bg1 {
-                /* The image used */
-                /*background-color:#f9f9f9; */
-                background-image: url("images/guitars.png");
-                /* Full height */
-                height: 100%;
-                /* Center and scale the image nicely */
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            .bg2 {
-                /* The image used */
-                /*background-color:#f9f9f9; */
-                background-image: url("images/DL.png");
-                /* Full height */
-                height: 100%;
-                /* Center and scale the image nicely */
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            .bgwhite {
-                /* The image used */
-                /*background-color:#f9f9f9; :#2e5090*/
-                background-color: #fafafa;
-                /* Full height */
-                height: 100%;
-                margin-top: 0px;
-                /* Center and scale the image nicely */
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-
-            }
-            
-
-            .downarrow {
-                cursor: pointer;
-                color: #D3D3D3;
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                z-index: 10;
-                font-size: 50px;
-                padding-right: 50px;
-                padding-bottom: 20px;
-                
-            }
-
-            .downarrow:hover {
-                color: #808080;
-            }
-
-        
-            #back2Top {
-                overflow: hidden;
-                z-index: -1;
-                display: none;
-                cursor: pointer;
-
-                color: #D3D3D3;
-                position: fixed;
-                bottom: 0;
-                right: 0;
-                z-index: -1;
-                font-size: 50px;
-                padding-right: 50px;
-                padding-bottom: 75px;
-            }
-            
-            #back2Top:hover {
-                color: #808080;
-            }
-            
-
-            
+    background-color: #fafafa;
+  }

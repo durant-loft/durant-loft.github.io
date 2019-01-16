@@ -1,0 +1,101 @@
+
+.zencolor { 
+    color: #05393F;
+    font-size: 30px;
+}
+
+.deskcolor2{
+    color: #78A300;
+    font-size: 100px;
+    opacity: 0.5;   
+}
+
+.bg {
+    background-image: url("/static/ticket_manager/login.png");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.loginbox {
+    margin: auto;
+    width: 50%;
+    border: 4px solid #E5E5E5;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 0px;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+
+form input[type="text"] {
+
+    padding: 10px 14px;
+    margin: 3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+input[type=submit] {
+    
+    background-color: #1E73B7;
+    color: white;
+    padding: 10px 30px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px
+  }
+
+input[type=submit]:hover {
+    background-color: #05393F;
+  }
+  
+.boxybox {
+    background-color: lightgray;
+    padding: 1px;
+  }
+
+.topb{
+    position:fixed;
+    width:100%;
+    z-index:1;
+    top:0;
+    padding:0;
+}
+
+.nevbutton {
+    font-family: 'Poppins','Source Sans Pro';
+    font-size: 16px;
+    color: #696969;
+    text-decoration: none;
+    padding: 2px;
+}   
+
+.nospace {
+    margin:0;
+    padding:0;
+}
+
+nav {
+    margin:0;
+    padding:0;
+}
+
+label {
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+}

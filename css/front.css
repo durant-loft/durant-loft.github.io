@@ -1,0 +1,291 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+@import url(../fonts/font-awesome/css/font-awesome.min.css);
+
+
+.fa {
+	color:#959595;
+} .fa-linkedin-in:hover {
+	color: #5695b6;
+} .fa-github:hover {
+	color: #474747;
+} .fa-file-pdf:hover {
+	color: #de5959;
+} .fa-chalkboard-teacher:hover {
+	color: #2e5090;
+} .fa-gitlab:hover {
+	color: #ff660f;
+} .fa-facebook-messenger:hover {
+	color: #0084ff;
+}
+
+
+
+.iconspec {
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 30px;
+
+}
+
+a:link, a:visited {
+
+    color: #b5b5b5;
+} a:hover {
+    text-decoration: underline;
+}
+
+ul.links {
+	list-style-type: none;
+	display:inline;
+}
+ul.links li{
+	display:inline;
+    font-size:35px;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.ho {
+     opacity:0.0;
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: 1s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 1s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 1s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 1s; 
+    transition: .5s all;   
+    transition-delay: 0.1s; 
+   
+}
+
+.ho:hover {
+	background: #dbdbdb;
+    opacity:1;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: calc(100%/6); /* IE10 */
+    flex: calc(100%/6);
+    max-width: calc(100%/6);
+    padding: 0px 0px;
+}
+
+.column img {
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+
+
+.introduction {
+    background-color: white;
+    width: 33.5%;
+    height: 65%;    /* BOX HEIGHT*/
+    border: 25px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 40px black;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px
+    
+}
+
+.introbox {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    top: 35%;
+}
+
+.namebox {
+    
+    width: 50%;
+    height: 100%;    /* BOX HEIGHT*/
+    /* border: 25px solid white; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    /* box-shadow: 0px 0px 20px black; */
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    padding-top:0px;
+  }
+@media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+}
+
+
+.hideoverlap {
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+
+.sticky {
+	position: absolute;
+    bottom: 0;
+	padding-bottom: 0px;
+}
+
+.elemental {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+
+
+
+
+/*
+====================================================
+
+* 	[Master Stylesheet]
+	
+	Theme Name :  
+	Version    :  
+	Author     :  
+	Author URI :  
+
+====================================================
+
+	TOC
+	
+	1. PRIMARY STYLES
+	2. COMMONS FOR PAGE DESIGN
+	3. HEADER
+	4. INTRO SECTION
+	5. PORFOLIO SECTION
+	6. ABOUT SECTION
+	7. EXPERIENCE SECTION
+	8. EDUCATION SECTION
+	9. COUNTER SECTION
+	10. FOOTER
+
+====================================================
+
+
+/* ---------------------------------
+1. PRIMARY STYLES
+--------------------------------- */
+
+
+body{ font-size: 16px; 
+	; width: 100%; height: 100%; margin: 0; font-weight: 400;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
+	color: #333; }
+
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+
+h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+
+h1,h2,h3{ font-family: 'Mukta',  'Helvetica', 'Arial' !important;}
+h4{ font-family: 'Source Sans Pro',  'Helvetica', 'Arial' !important;}
+h11 {
+    font-family: 'Source Sans Pro',  'Helvetica', 'Arial' !important;
+}
+
+h12 {
+    font-family: 'Source Sans Pro',  'Helvetica', 'Arial' !important;
+}
+
+a.overandunder{
+    color:red;
+}
+a.overandunder:hover {
+    color:#2e5090;
+    text-decoration-color: #2e5090;
+    text-decoration: none;
+}
+
+p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #777; }
+
+h1{ font-size: 4em; line-height: 1; }
+h2{ font-size: 2.2em; line-height: 1.1; }
+h3{ font-size: 1.8em; }
+h4{ font-size: 1.3em; }
+h5{ font-size: 1em; }
+h6{ font-size: .9em; letter-spacing: 1px; }
+
+h10 {
+    font-family: 'Helvetica', 'Arial' !important;
+    font-weight: 400;
+}
+
+
+/*
+a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; 
+	-webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
+*/
+
+.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+
