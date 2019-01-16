@@ -46,7 +46,8 @@ ul.posts li {
 .bg {
                 /* The image used */
                 /*background-color:#f9f9f9; */
-                background-color:#2e5090;
+                background-image: url("images/main.jpg");
+                
                 /* Full height */
                 height: 100%;
                 margin-top: 0px;
@@ -56,11 +57,22 @@ ul.posts li {
                 background-size: cover;
 
             }
-            
             .bg1 {
                 /* The image used */
                 /*background-color:#f9f9f9; */
-                background-image: url("images/wau.jpg");
+                background-image: url("images/guitars.png");
+                /* Full height */
+                height: 100%;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .bg2 {
+                /* The image used */
+                /*background-color:#f9f9f9; */
+                background-image: url("images/DL.png");
                 /* Full height */
                 height: 100%;
                 /* Center and scale the image nicely */
