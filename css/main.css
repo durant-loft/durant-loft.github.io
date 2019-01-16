@@ -41,3 +41,95 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+
+.bg {
+                /* The image used */
+                /*background-color:#f9f9f9; */
+                background-color:#2e5090;
+                /* Full height */
+                height: 100%;
+                margin-top: 0px;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            
+            .bg1 {
+                /* The image used */
+                /*background-color:#f9f9f9; */
+                background-image: url("images/wau.jpg");
+                /* Full height */
+                height: 100%;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .bgwhite {
+                /* The image used */
+                /*background-color:#f9f9f9; :#2e5090*/
+                background-color: #fafafa;
+                /* Full height */
+                height: 100%;
+                margin-top: 0px;
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            
+            .topb{
+                position:fixed;
+                width:100%;
+                z-index:1;
+                top:0;
+                padding:0;
+                margin:0;
+            }
+
+
+            .downarrow {
+                cursor: pointer;
+                color: #D3D3D3;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 10;
+                font-size: 50px;
+                padding-right: 50px;
+                padding-bottom: 20px;
+                
+            }
+
+            .downarrow:hover {
+                color: #808080;
+            }
+
+        
+            #back2Top {
+                overflow: hidden;
+                z-index: -1;
+                display: none;
+                cursor: pointer;
+
+                color: #D3D3D3;
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: -1;
+                font-size: 50px;
+                padding-right: 50px;
+                padding-bottom: 75px;
+            }
+            
+            #back2Top:hover {
+                color: #808080;
+            }
+            
+
+            
